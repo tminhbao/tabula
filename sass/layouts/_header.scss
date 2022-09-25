@@ -1,0 +1,24 @@
+@import "../utils/variables";
+@import "../components/buttons";
+.header {
+  .container {
+    .logo__wrapper {
+      img {
+        height: 100%;
+      }
+    }
+    .navbar {
+      a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        font-size: 16px;
+      }
+    }
+    .call-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
