@@ -1,6 +1,7 @@
 @import "../utils/variables";
 @import "../components/buttons";
 .header {
+  background-color: transparent;
   .container {
     .logo__wrapper {
       img {
@@ -19,6 +20,18 @@
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+    .social__wrapper {
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-evenly;
+      a {
+        text-decoration: none;
+        color: #000;
+        &:hover {
+          color: $primary--color;
+        }
+      }
     }
   }
 }

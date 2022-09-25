@@ -38,6 +38,9 @@ html {
   transition: all 0.75s;
 }
 
+.header {
+  background-color: transparent;
+}
 .header .container .logo__wrapper img {
   height: 100%;
 }
@@ -51,4 +54,16 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.header .container .social__wrapper {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header .container .social__wrapper a {
+  text-decoration: none;
+  color: #000;
+}
+.header .container .social__wrapper a:hover {
+  color: #b61984;
 }
