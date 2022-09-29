@@ -724,7 +724,63 @@ html {
 }
 
 /* Phones  */
+@media screen and (max-width: 575.98px) {
+  .footer {
+    padding-bottom: 0px;
+    background-position: 0px 690px !important;
+  }
+  .footer .contact__wrapper {
+    margin-top: 30px;
+  }
+}
 /* Tablets  */
+@media only screen and (max-width: 991.98px) {
+  .header .navbar,
+.header .call-btn,
+.header .social__wrapper {
+    display: none !important;
+  }
+  .header .logo__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .header .logo__wrapper .fa-bars {
+    height: 100%;
+    font-size: 60px;
+    margin-right: 30px;
+  }
+  .banner {
+    background-position: 0px 100px !important;
+  }
+  .banner .banner__content {
+    margin-top: 160px !important;
+  }
+  .banner .banner__content p {
+    font-size: 60px !important;
+  }
+  .banner .banner__img img {
+    height: 60%;
+  }
+  .staff .container-fluid {
+    padding-top: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .contact form {
+    width: 100% !important;
+    margin-top: 24px !important;
+  }
+  .contact form .form-wrapper {
+    margin-top: 14px;
+  }
+  .footer {
+    padding-bottom: 0px;
+    background-position: 0px 200px;
+  }
+  .footer .contact__wrapper {
+    margin-top: 30px;
+  }
+}
 /* Desktops  */
 /* @media only screen and (max-width: 1199.98px) {
 
