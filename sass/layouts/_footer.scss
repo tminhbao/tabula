@@ -1,2 +1,81 @@
 @import "../utils/variables";
 @import "../components/buttons";
+
+.footer {
+  z-index: 9999;
+  padding-top: 50px;
+  margin-top: -20px;
+  background-color: $primary--color;
+  color: white;
+  .container {
+    .row {
+      .contact__wrapper {
+        h5 {
+          margin-bottom: 20px;
+          font-weight: 700;
+        }
+        .contact-social {
+          .social-list {
+            list-style: none;
+            margin-left: -36px;
+            .social-item {
+              display: inline;
+              padding: 0 4px;
+              i {
+                font-size: 10px;
+              }
+            }
+          }
+        }
+        a {
+          text-decoration: none;
+          display: block;
+          margin: 10px 0;
+          color: white;
+          font-size: 16px;
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+        input {
+          display: block;
+          outline: none;
+          margin-bottom: 20px;
+          background-color: transparent;
+          border: none;
+          color: white;
+          padding: 10px 30px;
+          border-radius: 30px;
+          transition: all 0.75s;
+          &::placeholder {
+            color: white;
+            text-align: center;
+          }
+          &:focus-within {
+            border: 1px solid white;
+            transition: all 0.75s;
+          }
+        }
+        button {
+          border: none;
+          background-color: white;
+          border: none;
+          color: rgb(80, 80, 80);
+          padding: 10px 84px;
+          border-radius: 30px;
+          text-transform: uppercase;
+          &:hover,
+          &:focus {
+            background-color: $primary--color;
+            border: 1px solid white;
+            color: white;
+            cursor: pointer;
+            box-shadow: inset 0 3.5em 0 0 $primary--color,
+              inset 0 -3.5em 0 0 $primary--color;
+            transition: all 0.75s;
+          }
+        }
+      }
+    }
+  }
+}

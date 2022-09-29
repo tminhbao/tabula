@@ -1,8 +1,11 @@
 @import "../utils/variables";
 @import "../components/buttons";
 .contact {
-  border: 1px solid red;
-  padding: 110px 0;
+  padding-top: 110px;
+  background-image: url(../../img/accent_bottom_wave_01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -151px 42px;
   .container {
     .contact-left {
       text-align: right;
