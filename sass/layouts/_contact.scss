@@ -1,0 +1,78 @@
+@import "../utils/variables";
+@import "../components/buttons";
+.contact {
+  border: 1px solid red;
+  padding: 110px 0;
+  .container {
+    .contact-left {
+      text-align: right;
+      img {
+        width: 80%;
+      }
+    }
+    .contact-right {
+      form {
+        width: 400px;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 9px 23px 24px 2px rgba(0, 0, 0, 0.33);
+        -webkit-box-shadow: 9px 23px 24px 2px rgba(0, 0, 0, 0.33);
+        -moz-box-shadow: 9px 23px 24px 2px rgba(0, 0, 0, 0.33);
+        .form-wrapper {
+          color: $primary--color;
+          width: 100%;
+          transition: all 0.75s;
+          padding: 12px 14px;
+          border: 1px solid #ddd;
+          border-radius: 20px;
+          font-size: 12px;
+
+          input {
+            width: 82%;
+            border: none;
+            &:focus-within {
+              outline: none;
+            }
+          }
+          &:focus-within {
+            border: 2px solid #ddd;
+          }
+        }
+        select {
+          width: 90%;
+          border: none;
+          option {
+            background-color: white;
+            &:hover {
+              color: $primary--color;
+            }
+          }
+        }
+        textarea {
+          width: 92%;
+          border: none;
+          position: relative;
+          top: 0;
+          left: 24px;
+          &:focus {
+            outline: none;
+            border: none;
+          }
+        }
+        h1 {
+          font-weight: 700;
+          margin-bottom: 50px;
+        }
+        .fa-message {
+          position: absolute;
+          bottom: 430px;
+        }
+        .button {
+          margin: 20px 0;
+          padding: 20px 30px;
+          border: 1px solid $primary--color;
+        }
+      }
+    }
+  }
+}

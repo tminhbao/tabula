@@ -58,16 +58,5 @@
         animation-delay: $i * 0.15s;
       }
     }
-    // @keyframes appear {
-    //   0% {
-    //     opacity: 0;
-    //   }
-    //   100% {
-    //     opacity: 1;
-    //   }
-    // }
-    .animate__fadeIn {
-      --animate-duration: 2s;
-    }
   }
 }
