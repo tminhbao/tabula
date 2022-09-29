@@ -4,9 +4,14 @@
 .footer {
   z-index: 9999;
   padding-top: 50px;
+  padding-bottom: 320px;
   margin-top: -20px;
   background-color: $primary--color;
   color: white;
+  background-image: url(../../img/footer_background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0px 100px;
   .container {
     .row {
       .contact__wrapper {
@@ -21,8 +26,13 @@
             .social-item {
               display: inline;
               padding: 0 4px;
+              transition: all 0.5s;
               i {
-                font-size: 10px;
+                font-size: 14px;
+              }
+              &:hover {
+                color: black;
+                cursor: pointer;
               }
             }
           }
@@ -42,7 +52,7 @@
           outline: none;
           margin-bottom: 20px;
           background-color: transparent;
-          border: none;
+          border: 1px solid rgba($color: white, $alpha: 0.2);
           color: white;
           padding: 10px 30px;
           border-radius: 30px;

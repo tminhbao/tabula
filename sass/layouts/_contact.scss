@@ -43,9 +43,16 @@
         select {
           width: 90%;
           border: none;
+          background-color: transparent;
+          padding: 5px;
+          &:focus {
+            outline: none;
+          }
           option {
             background-color: white;
-            &:hover {
+            color: $primary--color;
+            &:hover,
+            &:focus {
               color: $primary--color;
             }
           }
